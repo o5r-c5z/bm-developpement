@@ -15,10 +15,10 @@ images hébergées sur le CDN Squarespace, horodatées fin novembre 2016) : 2016
 
 ## Contenu
 
-- `styles.css` — l'intégralité du CSS personnalisé injecté dans l'ancien site
+- `styles.less` — l'intégralité du CSS personnalisé injecté dans l'ancien site
   Squarespace. Un seul fichier, 444 lignes.
 
-Détail des blocs de `styles.css` :
+Détail des blocs de `styles.less` :
 
 - `@font-face` — déclaration de la police `Gotham` (Book, poids 400 ; Bold,
   poids 700), fichiers `.otf` hébergés sur `static1.squarespace.com`.
@@ -58,7 +58,7 @@ Détail des blocs de `styles.css` :
 
 Prérequis : un compte Squarespace disposant des droits d'édition sur le site.
 
-Il n'y a pas de build : le contenu de `styles.css` se colle dans
+Il n'y a pas de build : le contenu de `styles.less` se colle dans
 **Design → CSS personnalisé** (ou `Custom CSS`) de l'administration Squarespace,
 qui se charge de la compilation et de la minification.
 
